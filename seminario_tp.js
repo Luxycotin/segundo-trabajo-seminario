@@ -4,7 +4,7 @@ function ingresarDatos() {
     let continuar = true;
 
 
-    const cantidad = parseInt(prompt("¿Cuántas personas deseas registrar?"));
+    const cantidad = parseInt(prompt("¿Cuántas personas deseas registrar? Escriba un número entre 1 y 10."));
 
 
     for (let i = 0; i < cantidad; i++) {

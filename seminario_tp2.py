@@ -3,7 +3,7 @@ def ingresar_datos():
     continuar = True
 
 
-    cantidad = int(input("¿Cuántas personas deseas registrar? "))
+    cantidad = int(input("¿Cuántas personas va a desear registar? escriba un número: "))
 
   
     for i in range(cantidad):
@@ -14,7 +14,7 @@ def ingresar_datos():
     
         personas.append([nombre, edad, nota])
 
- 
+
     print("\nLista original de personas:")
     for persona in personas:
         print(persona)
